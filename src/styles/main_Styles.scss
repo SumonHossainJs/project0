@@ -1,4 +1,12 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
-
-@import "Standerd/typography";
 @import "Standerd/variables";
+@import "Standerd/extend";
+@import "Standerd/typography";
+
+
+
+.background{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
